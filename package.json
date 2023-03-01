@@ -1,0 +1,16 @@
+{
+  "name": "learn-tailwind",
+  "version": "1.0.0",
+  "description": "This is my repository of my process in learning tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/input.css -o ./public/css/style.css --watch",
+    "final": "npx tailwindcss -o ./public/css/final.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
